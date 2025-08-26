@@ -1,1 +1,39 @@
-<h1>Hello World!!!</h1>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi sitio en GitHub Pages</title>
+  <meta name="description" content="Sitio personal alojado en GitHub Pages." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+
+  <!-- Open Graph (opcional para compartir en redes) -->
+  <meta property="og:title" content="Mi sitio en GitHub Pages" />
+  <meta property="og:description" content="Hola, mundo desde GitHub Pages." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root { --max: 900px; --radius: 14px; --pad: 1.25rem; }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      display: grid;
+      place-items: center;
+      background: #f6f7fb;
+      color: #1f2328;
+    }
+    .card {
+      width: min(100% - 2rem, var(--max));
+      background: white;
+      border-radius: var(--radius);
+      padding: calc(var(--pad) * 1.5);
+      box-shadow: 0 10px 30px rgba(0,0,0,.07);
+    }
+    header h1 { margin: 0 0 .25rem; font-size: clamp(1.5rem, 2.5vw + 1rem, 2.5rem); }
+    header p { margin: 0; color: #57606a; }
+    main { margin-top: 1rem; }
+    .grid {
+      display: grid; gap:
